@@ -1,29 +1,17 @@
 # CNB 文档Skills
 
-## 仓库配置
+这是一个将 CNB 文档转换为 Claude Skills 的仓库。允许用户将该SKILL导入到自己的 Claude 中，以便将CNB的能力集成到自己的 Claude 中。
 
-目标路径
+## 使用场景
 
-基础仓库： https://cnb.cool/cnb/docs
+1. 编写CNB云原生构建的配置信息
+2. 根据项目需求定制CNB云原生开发环境
 
-1. 引入云原生构建 - cnb-build
-```
-git remote add cnb-build https://cnb.cool/cnb/docs
-git fetch cnb-build
+## 使用方法
 
-git subtree add \
-  --prefix=.claude/skills/云原生构建/references \
-  cnb-build main:docs/build \
-  --squash
-```
-2. 引入云原生开发 - cnb-workspaces
+1. 同步CNB文档到本地仓库，需要执行`bash sync.sh`
+2. 导入SKILL到自己的 Claude 中
 
-```
-git remote add cnb-workspaces https://cnb.cool/cnb/docs
-git fetch cnb-workspaces
+## LICENSE
 
-git subtree add \
-  --prefix=.claude/skills/云原生开发/references \
-  cnb-workspaces main:docs/workspaces \
-  --squash
-```
+MIT
