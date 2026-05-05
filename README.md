@@ -1,3 +1,4 @@
+# CNB官方将文档仓库迁移,该项目不再能够获取到最新文档,请移步至 https://github.com/phil616/cnb-cicd
 # CNB 文档Skills
 
 这是一个将 CNB 文档转换为 Claude Skills 的仓库。允许用户将该SKILL导入到自己的 Claude 中，以便将CNB的能力集成到自己的 Claude 中。
